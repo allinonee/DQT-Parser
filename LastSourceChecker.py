@@ -118,16 +118,4 @@ else: # len(Last_Source_Candidate) >= 2 일 경우, Input_image_filename에 Edit
         else:
             print('\033[31m' + "The Last Source is Unknown." + '\033[0m')
 
-        
-        '''
-        for c in Last_Source_Candidate:
-            for f in filename_data:
-                if (c == f[0]) and (f[1] not in input_image_filename):
-                    Last_Source_Candidate.remove(f[0])
-                
-        for c in Last_Source_Candidate: 
-            print("Last source Candidate of '{}' : ".format(image), end='')
-            print('\033[31m' + c + '\033[0m')
-        '''
-
 connect_db.close()

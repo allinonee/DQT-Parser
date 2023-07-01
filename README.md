@@ -5,7 +5,7 @@ We utilized the [Manipulated-Image-Dataset](https://github.com/allinonee/Manipul
 ### Reference DB
 - A database that contains exif, dqt, and filename signature information for images edited using various editing tools.
 - Used as a reference to determine the manipulation and editing source of specific images.
-- Schema of Reference DB ![16_Schema](https://github.com/allinonee/DQT-Parser/assets/62634837/75a7f411-3b62-4edf-8bd1-666708ea6272){: width="100" height="100"}
+- Schema of Reference DB <img src="[이미지주소.png](https://github.com/allinonee/DQT-Parser/assets/62634837/75a7f411-3b62-4edf-8bd1-666708ea6272)" width="400" height="200"/>
 
 ### Insertion_ExifDQT.py
 - Code that enables the insertion of metadata artifacts, specific to each editing tool, into the Reference DB.

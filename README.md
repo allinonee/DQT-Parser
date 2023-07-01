@@ -1,6 +1,6 @@
 # DQT-Parser
 
-We utilized the Manipulated-Image-Dataset to insert metadata artifacts into the ReferenceDB, specific to each editing tool. We provide a simple code that parses the metadata (exif, dqt) and inserts it into the database, enabling the identification of the last source. This is meant to demonstrate the ability to determine manipulation and trace the ultimate source through metadata. By referencing this code and principle, it contributes to research in image manipulation detection and related studies.
+We utilized the [Manipulated-Image-Dataset](https://github.com/allinonee/Manipulated-Image-Dataset.git) to insert metadata artifacts into the ReferenceDB, specific to each editing tool. We provide a simple code that parses the metadata (exif, dqt) and inserts it into the database, enabling the identification of the last source. This is meant to demonstrate the ability to determine manipulation and trace the ultimate source through metadata. By referencing this code and principle, it contributes to research in image manipulation detection and related studies.
 
 ### Reference DB
 - A database that contains exif, dqt, and filename signature information for images edited using various editing tools.
